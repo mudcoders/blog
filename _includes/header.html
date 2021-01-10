@@ -2,6 +2,7 @@
 <header>
   <div class="menu">
     <ul>
+      <li><a href="{{ site.url | relative_url }}">{{ site.title | escape }}</a></li>
       {%- for path in page_paths -%}
         {%- assign my_page = site.pages | where: "path", path | first -%}
         {%- if my_page.title -%}

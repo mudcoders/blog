@@ -11,7 +11,7 @@ $container-width: 90% !default;
 $container-max-width: 1024px !default;
 
 :root {
-    --link-color: blue;
+    --link-color: green;
     --code-color-1: #aaaaaa;
     --code-color-2: #ffffcc;
     --code-color-3: #F00000;
@@ -46,6 +46,10 @@ body {
     line-height: $base-line-height !important;
 }
 
+main {
+    padding: 0 2rem;
+}
+
 h1,
 h2,
 h3,
@@ -76,11 +80,12 @@ ol {
 a {
     text-decoration: underline;
     color: var(--link-color);
+    padding: .3rem;
 }
 
 a:hover {
     color: var(--background-color);
-    background-color: var(--base-color);
+    background-color: var(--link-color);
 }
 
 @media only screen and (max-device-width: 500px) {
@@ -160,13 +165,16 @@ footer {
     list-style-type: '- ';
     margin-bottom: 1rem;
     margin-left: 2rem;
+    margin-right: 2rem;
     list-style-position: outside;
 }
 
-// :not(.menu)>ul>li:before {
-//     content: "-";
-//     margin-right: 9px;
-// }
+main.index {
+    ul {
+        list-style-type: none;
+        margin: 0;
+    }
+}
 
 /**
  * Header/Navigation
@@ -188,6 +196,10 @@ footer {
 .menu ul li {
     display: inline;
     margin-left: 10px;
+
+    &:first-child {
+        font-weight: bold;
+    }
 }
 
 .menu ul li a {
@@ -198,7 +210,8 @@ footer {
 .menu ul li a:hover {
     text-decoration: none;
     color: var(--background-color);
-    background-color: var(--base-color);
+    background-color: var(--link-color);
+    padding: .2rem;
 }
 
 /**

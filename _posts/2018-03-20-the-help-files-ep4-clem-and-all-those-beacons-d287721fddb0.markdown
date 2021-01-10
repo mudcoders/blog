@@ -5,7 +5,7 @@ date: '2018-03-20 02:03:00'
 author: Danny Nissenfeld
 ---
 
-As one might have guessed from prior entries in [The Help Files](https://mudcoders.com/search?q=the%20help%20files), I’m playing a bit of Warframe. Like most multiplayer online worlds, it has its share of in-jokes. The two more prevalent ones in particular surround Clem and potatoes. Some time Sunday morning, I finally got through the [quest line](http://warframe.wikia.com/wiki/A_Man_of_Few_Words) that reveals why everyone makes jokes about Clem, and why certain pieces of equipment are always referred to as potatoes.
+As one might have guessed from prior entries in The Help Files, I’m playing a bit of Warframe. Like most multiplayer online worlds, it has its share of in-jokes. The two more prevalent ones in particular surround Clem and potatoes. Some time Sunday morning, I finally got through the [quest line](http://warframe.wikia.com/wiki/A_Man_of_Few_Words) that reveals why everyone makes jokes about Clem, and why certain pieces of equipment are always referred to as potatoes.
 
 I’m not really here to talk about whether or not the references are funny—or what they even mean at all. The thing I will mention is that the content that inspired the Clem jokes is compelling and, more importantly, memorable. Digital Extremes, the publisher of the game, also knows when to run with a joke and while that’s not always necessary in keeping the fire going, it certainly doesn’t hurt.
 

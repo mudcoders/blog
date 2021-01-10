@@ -8,13 +8,17 @@
 
       {%- include header.html -%}
 
-    <main>
-      <p>
-        <h1>{{ page.title }}</h1>
-        {% if page.author %}
-          By {{ page.author }}
-        {% endif %}
-      </p>
+    {% if page.name != "index.markdown" %}
+      <main>
+        <p>
+          <h1>{{ page.title }}</h1>
+          {% if page.author %}
+            By {{ page.author }}
+          {% endif %}
+        </p>
+    {% else %}
+      <main class='index'>
+    {% endif %}
 
       {{ content }}
     </main>
