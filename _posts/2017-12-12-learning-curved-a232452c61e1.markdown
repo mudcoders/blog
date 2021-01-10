@@ -1,0 +1,32 @@
+---
+layout: post
+title: Learning Curved
+date: '2017-12-12 02:05:00'
+author: Danny Nissenfeld
+---
+
+My MUD ran on and off for around a decade. It was almost always accessible in that time period but at times it simply had no players due to an intentional lack of advertising.
+
+It was “under construction” in its own way.
+
+The primary reason for these periods is likely not what you might be expecting. As a game designer there is absolutely a glaring flaw in my approach. More or less it’s an addiction to complexity.
+
+It’s difficult to call it feature creep because I had no real trouble implementing anything I could think of. I was sort-of-friends with an admin of a sci-fi themed MUD and one day he was keen to show off an automatic rifle weapon with a quick-load ammunition drum. It essentially made a number of attacks per round in the room and had to be reloaded with a drum object. I honestly had no idea how it was coded and how it tracked ammunition count.
+
+The following morning I messaged him to log into my world and loaded a pistol into his inventory. I handed him a bullet object and had him load the chamber. Then I handed him a magazine clip and 15 individually different bullet objects each with its own affects, caliber, damage type and name and watched him try to load them into the clip. Half of them would fit, the rest would be an incorrect size. I loaded in an NPC and had him walk a few rooms away and initiate combat from a distance. After watching the mob close distance while being shot at he sat in silence for a bit and then logged out.
+
+While creating an entire ranged combat system and firearms — including bows and ballistic launchers — overnight wasn’t enough to wipe all data and start over it was basically a similar story on a larger scale.
+
+One afternoon I wanted a new set of races. One in particular was a bit of a disaster and would cause me headaches for years: the Maudlin. A race of magically infused biological computers. They were a part of very long standing bit of historical lore and a huge part of the current plot. The lore wasn’t as much a problem as their racial ability set. They were locked out of both magic use and the technology trees but they could assign genetic signatures to their anatomical parts to change both their appearance and skill set. Find a lobster/crab body part and you could assign it to your torso for an exoskeleton for natural armor, or your arm for a giant claw granting you a crushing grapple attack.
+
+This is one of those features that caused the MUD to come down. All NPC data was wiped and building had to, for the most part, start over. Every mobile now required a genetic type. Every genetic type had to have not only attributes, but actual body part objects assigned to each location. On death every corpse now had to be butcherable to get these parts. Every genetic profile had to do _something_ for the new race across the anatomical locations.
+
+So if you wanted to make a giant rat you needed a rat race which had a rodent genetic profile which had rodent feet, torsos, heads and tails. The complexity to the playerbase was negligible. It meant extra bits on corpses that could be ignored or used. The complexity to the building staff, however, was exponentially larger.
+
+I could not retain building staff. There was one guy, but he was probably more of a friend than a staff member in the end. I burned myself out on filling in the structural gaps hoping that if I just covered all the normal cases maybe I could get staff to stick around.
+
+In the end the learning curve for simply building content became too steep. People were excited by the idea of building for the system but after reading a quarter of the several page long help files explaining what all the values in the editor meant, most just vanished.
+
+In the world of amateur world building it’s not really enough to make a fun system for people to inhabit and play in. You have to ensure it’s interesting and fun enough to build out as well.
+
+

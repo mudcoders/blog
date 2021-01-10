@@ -1,0 +1,40 @@
+---
+layout: post
+title: Fill at Will
+date: '2018-08-19 02:21:00'
+author: Danny Nissenfeld
+---
+
+Normally this would be a place where I talk about design—and in a way this will be—but in many other ways it won’t. I’d like to go through a concept that makes its way into a lot of Intellectual Properties—not just games—and is an integral part of why narratives persist and thrive beyond the final paragraph on the last page of a novel, or the kill screen of a game. In my opinion, this is one of the central tenants of why we cling to games of the bygone era when we strip away the nostalgia of youth.
+
+### Negative Space
+
+Negative space is a well discussed topic in visual design, but we don’t often speak of it when we’re talking about works of fiction and games. To be clear, I am not talking about the visual design concept of negative space; I’m not talking about erasing the background layer of your RPG, or leaving blank pages in the middle of a book.
+
+What is at hand now is negative _narrative_ space. The details that are meaningless to the progression of the central plots in a novel. The empty houses you can walk into an RPG. The vast amounts of “pointless” areas in an MMORPG, where you wont find any quests to undertake or vases to smash or nodes to mine or even NPCs, in many cases.
+
+Just empty space.
+
+Many times, when we speak of World Building we’re talking about mechanical depth, such as fleshing out a detailed spell casting system for a particular class or writing in timelines stretching back hundreds of years to lend credibility to _why_ you draw your sword when you encounter someone wearing **blue** but not **red**. This is even beyond the unexplained clues and secrets one might include, such as a moss covered statue in the deep woods. I want to go past every single “interesting detail” you have intentionally created; past the foreshadowing that you never cash in on.
+
+Negative narrative space is often boring. It’s the bathrooms in an office building that have no one in them. It’s the empty fields and the ponds in a clearing. It’s separating points of interest with virtual miles of farmland, forests, fields, and dirt roads that lead nowhere but more farmland, forests, and fields.
+
+Under the Eclipse—which is finally entering a place where I can stop referring to it as a platform (netMUD) and actually use the name **my** game has—is almost _all_ negative narrative space. There are sprawling and massive cities, but even they will have an equivalent negative to purposeful/crafted space. This goes against quite a bit of thought on MUD and post-WoW MMORPG design. I don’t expect to have many players, and all of this “boring” space will only further drive them apart, limiting opportunities for interaction.
+
+The _why_ at hand comes down to a fairly hot topic of debate: Vanilla World of Warcraft vs Modern WoW designs (in this I am including EverQuest as well, since they shared many design features, but the “bring zero-expansion EQ1 back” debate is effectively nonexistant).
+
+Vanilla WoW was often extremely boring. Quests gave awful rewards. Gold was generally hard to come by if you were roleplaying anything but someone specifically trying to obtain gold. If you were just following the story (e.g. doing quest lines), buying your skill/spell upgrades, and trying to level up your profession, you were probably broke more often than not.
+
+Getting places took a while. Even in modern WoW, if you go back to one of the old continents, hop on your max speed flying mount, and try to get from north to south, it’ll take some time. In a world where you couldn’t point yourself along a mini-map arrow, fly to max height, and hit autowalk so you could go get a drink or hit the can, getting from place to place often took upwards of 10–20 minutes. Summoning someone took _effort_, and many mages wanted several gold just to open portals.
+
+The world was vast, and you often had to run through quite a bit of it to get anywhere. Most of this land had no narrative meaning, as old-WoW itself had little central narrative. The “us vs. them” was always present, and there was quite a bit of story in general, but no central plotline you had to experience to get from one area to the next. Very little was cut off from you once you hit max level and, really, that restriction was only a convenience. You could stealth-slow-walk through nearly the entire world as a low level rogue or cat druid.
+
+The space lacking a forced narrative creates the Negative Space. Some players may never make use of such space. Many will walk right past it, tunnel-focused on hopping from quest objective to quest objective until their number gets as high as it can. Large majorities of players applauded features like Dungeon Stones and dungeon/raid/battleground queues that let you teleport directly to your goal. Blizzard continued to hone in on this design up until the last expansion, Legion, which is so narrative dense that there’s hardly a single 10m square bit of the Broken Isles that doesn’t have a quest in it. The Broken Isles is really a large continent, but many complained at how small it felt, because in normal play you’d be stumbling into quests without end in nearly any direction. This is compounded by the “always at your level” nature of most of the expansion. You can start anywhere and every quest and NPC will be of your level, minus some small bits added as the expansion progressed which tied into end-game storylines.
+
+When you create negative narrative space where nothing in particular is going on, what actually happens is some of your players will fill it with themselves.
+
+These players will occupy inert, mostly empty taverns and fill them with their own stories. Barren fields will become places of great significance where an epic conflict was fought, or a romance was started. These stories will get passed down from player to player, and become a part of what you have created.
+
+Think about the narrative of Dwarf Fortress… That probably didn’t take long, because there is none. While the engine of Dwarf Fortress will procedurally generate one on map creation, the game is effectively just a world simulator. You are filling that mountain or valley with your own story, and you can even abandon it and start on your map in Adventure mode to experience first hand as a character the result of what you created. You can do this over and over again, and even share maps with other players and have them do the same thing.
+
+

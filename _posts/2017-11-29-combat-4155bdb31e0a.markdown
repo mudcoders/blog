@@ -1,0 +1,53 @@
+---
+layout: post
+title: Combat… It Still Isn't Very Simple
+date: '2017-11-29 00:08:00'
+author: Danny Nissenfeld
+---
+
+I will cop to the fact that wrote this a while ago:
+
+[**June 2000 - It is not so Simple by D.A. "Flux" Nissenfeld**](https://web.archive.org/web/20171230072352/http://imaginary-realities.disinterest.org/volume3/issue6/simplic.html)
+
+Yes, that was me. So… so long ago.
+
+I’ve always been big on giving credit to where I stole ideas from, and back then the primary driver for combat design for me was this:
+
+<iframe width="459" height="344" src="https://www.youtube.com/embed/5gl1vWsdyBU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+River City Ransom (RCR). A seminal street brawling game for a number of reasons. While everyone and their brother has probably at least seen the likes of Double Dragon and Final Fight, RCR went so many steps further it felt pointless to play anything else.
+
+The clunkiness of NES four grid “save codes” aside, RCR was a roleplaying game. It had stats, a pseudo-equipment system, and learnable skpells. Beyond that, however, was the combat system.
+
+You could pick up anything on the ground: rocks, sticks, baseballs, chains, brass knuckles, pipes, baseball bats, boxes, tires, trash cans and of course the other player and NPCs who were knocked down. Beyond just something to throw or hit with, though, everything had physics. Baseballs could be hit back by bats. You could stand on boxes, tires, and trashcans and have those picked up by someone and get thrown with them. Stuff bounced and hit other people.
+
+Attacks could be blocked by attacking yourself, creating an active parry system. Projectiles could be knocked out of the air by attacking them with weapons. There was so very much added to the combat system by introducing a slightly more nuanced physics system that it blew my mind.
+
+So my combat engine was modeled after that game. I tried to incorporate elements initially in an active manner. Comboable command trees, stances, etc. None of it really worked very well because autocombat was still… well… autocombat.
+
+So I created a physics system.
+
+Objects (and mobiles) gained physical models, autocombat became a ballet of attacking and dodging. It was essentially far more nuanced — and far more complex — as a result. It was still a bit static, however, as you’d just type “kill,” hit enter, and watch it go.
+
+So I added mobility.
+
+Combatant clusters were no longer dependent on being in the same room. I added ranged combat: bows, launchers, and firearms. You could throw _anything_ at _anyone_ with line of sight. Ranged weapons gained their own form of autocombat. I added spells to create magical door blockages and push or pull people out of (and into) rooms.
+
+And that’s where I stopped; which is where that article comes from.
+
+I don’t want it to stop there anymore (NSFW for excited swearing language). This is what I want:
+
+<iframe width="480" height="270" src="https://www.youtube.com/embed/dFKyq3TTfxs?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I can’t get there with a simple telnet client, though. I need clickable QTE style interface sidebars and segmented status outputs and loads of easily identifiable visual alert elements.
+
+Text games are in a position to do things like this:
+
+- If you want combinable objects you don’t need to create new art assets and meshes for each thing. You just need to find a way to describe it organically and have it work with your system.
+- Putting a trash can over your head as armor doesn’t require bump mappings and variant skins for races and new skeleton models. You just need checks for if it can be done and a way to handle it.
+
+I feel like we should find ways to stand out with text games from the Worlds of Warcraft and questing Evers .
+
+As Max puts it in so many of his fighting game videos: I want Crazy Horseshit.
+
+
