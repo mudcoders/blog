@@ -37,7 +37,7 @@ A rusty dynamically typed scripting language
 
 A Golang library for text processing, including tokenization, part-of-speech tagging, and named-entity extraction.
 
-> _[fantasyname](https://github.com/skeeto/fantasyname)_
+#### [fantasyname](https://github.com/skeeto/fantasyname)
 
 Fantasy name generator. Four implementations — JavaScript, C++, Elisp, and Perl — of the name generator described at RinkWorks. The JavaScript and C++ implementations are by far the most mature.
 
