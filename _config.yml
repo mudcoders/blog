@@ -29,7 +29,7 @@ livereload: true
 theme: jekyll-theme-console
 style: light
 # listen_for_clients_preferred_style: true
-permalink: /:title
+permalink: /:title/
 # header_pages:
 #   - index.markdown
 plugins:
