@@ -22,7 +22,7 @@ steps:
   - echo "$RSYNC_KEY" | ssh-add -
   - mkdir -p ~/.ssh
   - echo "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
-  - rsync -rvc /drone/src/_site/ $RSYNC_USER@$RSYNC_HOST:/var/www/flower.codes/
+  - rsync -rvc /drone/src/_site/ $RSYNC_USER@$RSYNC_HOST:/var/www/mudcoders.com/
   environment:
     RSYNC_KEY:
       from_secret: rsync_key
