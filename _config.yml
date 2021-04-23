@@ -18,6 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
+remote_theme: b2a3e8/jekyll-theme-console
+
 title: '> the mud coders guild'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mudcoders.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -26,7 +28,6 @@ github_username:  mudcoders
 
 livereload: true
 # Build settings
-theme: jekyll-theme-console
 style: light
 # listen_for_clients_preferred_style: true
 permalink: /:title/
