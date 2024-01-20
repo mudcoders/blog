@@ -12,6 +12,8 @@ $container-max-width: 1024px !default;
 
 :root {
     --link-color: green;
+    --text-color: #333333;
+    --header-color: #000000;
     --code-color-1: #aaaaaa;
     --code-color-2: #ffffcc;
     --code-color-3: #F00000;
@@ -58,9 +60,46 @@ h5,
 h6 {
     font-size: $base-font-size;
     margin: 0px;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: bold;
-    color: var(--text-color);
+    color: var(--header-color);
+}
+
+h1 {
+    &:before {
+        content: "# ";
+    }
+}
+
+h2 {
+    &:before {
+        content: "## ";
+    }
+}
+
+h3 {
+    &:before {
+        content: "### ";
+    }
+}
+
+h4 {
+    &:before {
+        content: "#### ";
+    }
+}
+
+h5 {
+    &:before {
+        content: "##### ";
+    }
+}
+
+h6 {
+    &:before {
+        content: "###### ";
+    }
 }
 
 blockquote {
@@ -113,6 +152,25 @@ hr {
 iframe {
     display: block;
     margin: 3rem auto;
+}
+
+header {
+    ul {
+        list-style: none;
+
+        li {
+            display: inline-block;
+            margin-right: 1rem;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            &.float-right {
+                float: right;
+            }
+        }
+    }
 }
 
 /**
